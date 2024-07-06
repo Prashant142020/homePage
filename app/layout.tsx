@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import NavBar from "@/components/navbar";
+import { ThemeProvider } from "@/components/theme-provider";
+import Sidebar from "@/components/sidebar";
+import Card from "@/components/followCard";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +20,24 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <NavBar />
+
+          <div className="mx-5 mt-6 flex gap-8 md:mx-16">
+            <Sidebar />
+
+            <div className="w-full md:w-3/4">
+              <Card /> {children}
+            </div>
+          </div>
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
