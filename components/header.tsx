@@ -2,18 +2,18 @@ const Header = () => {
   return (
     <div>
       <main className="">
-        <h1 className="text-2xl font-bold">About me</h1>
+        <h1 className="text-2xl font-normal">About me</h1>
         <p className="mt-2">
           I am an assistant professor in{" "}
-          <a href="#" className="text-blue-600">
+          <a href="https://doms.iitr.ac.in/" className="text-blue-600">
             Management Studies
           </a>{" "}
           at{" "}
-          <a href="#" className="text-blue-600">
+          <a href="https://www.iitr.ac.in/" className="text-blue-600">
             IIT Roorkee
           </a>
           . I am also a joint faculty in{" "}
-          <a href="#" className="text-blue-600">
+          <a href="https://www.iitr.ac.in/mfsdsai/" className="text-blue-600">
             MFS of Artificial Intelligence and Data Sciences
           </a>{" "}
           at IIT Roorkee.
@@ -35,48 +35,60 @@ const Header = () => {
           provide suggestions/have discussions on any topic mentioned in this
           site, please drop me a mail.
         </p>
-        <h2 className="mt-6 text-xl font-bold">News</h2>
-        <ul className="mt-2 space-y-2">
+        
+        <h2 className="mt-10 text-xl font-normal ">
+          <hr className="mb-2" />
+          News</h2>
+        <ul className="mt-3 space-y-3">
           <li>
-            <span className="font-semibold">21-25 January, 2024.</span> PhD
+            <span className="font-normal">21-25 January, 2024.</span> PhD
             student Anirban Mitra attended a workshop on{" "}
-            <a href="#" className="text-blue-600">
+            <a
+              href="https://www.ieor.iitb.ac.in/Combinatorial_Games"
+              className="text-blue-600"
+            >
               Combinatorial Games
             </a>
             .
           </li>
           <li>
-            <span className="font-semibold">18 January, 2024.</span> A talk on
-            "Strategic interaction between service providers and the user-set in
-            <a href="#" className="text-blue-600">
+            <span className="font-normal">18 January, 2024.</span> A talk on
+            "Strategic interaction between service providers and the user-set in{" "}
+            <a
+              href="https://www.isid.ac.in/~icorgtdm24/"
+              className="text-blue-600"
+            >
               Conference
             </a>
             based on joint work with N. Hemachandra and A. Mitra.
           </li>
           <li>
-            <span className="font-semibold">15-25 January, 2024.</span> PhD
+            <span className="font-normal">15-25 January, 2024.</span> PhD
             student Gopal Saha attended a GIAN Course on Advances in{" "}
-            <a href="#" className="text-blue-600">
+            <a
+              href="https://www.ieor.iitb.ac.in/minlo23"
+              className="text-blue-600"
+            >
               Mixed Integer Nonlinear Optimization
             </a>
             .
           </li>
           <li>
-            <span className="font-semibold">13 January, 2024.</span> Submitted a
+            <span className="font-normal">13 January, 2024.</span> Submitted a
             paper titled Multi-Objective Fixed-Cost Transportation Problem: A
             Cooperative Game Theory Approach with Gopal Saha.
           </li>
           <li>
-            <span className="font-semibold">02 January, 2024.</span>{" "}
-            Notification of acceptance of a proposal on Sustainability and
-            Social Welfare of National Logistic Policy. Thank you
-            <a href="#" className="text-blue-600">
+            <span className="font-normal">02 January, 2024.</span> Notification
+            of acceptance of a proposal on Sustainability and Social Welfare of
+            National Logistic Policy. Thank you{" "}
+            <a href="https://icssr.org/" className="text-blue-600">
               ICSSR
             </a>
             .
           </li>
           <li>
-            <span className="font-semibold">
+            <span className="font-normal">
               31 December, 2023 and older news.
             </span>{" "}
             <a href="news" className="text-blue-600">
