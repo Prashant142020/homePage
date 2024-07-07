@@ -30,7 +30,7 @@ export default function RootLayout({
         >
           <NavBar />
 
-          <div className="mx-5 mt-6 flex gap-8 md:mx-16">
+          <div className="mx-4 mt-6 flex gap-8 md:mx-16">
             <Sidebar />
 
             <div className="w-full md:w-3/4">
