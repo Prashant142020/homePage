@@ -1,6 +1,10 @@
 const page = () => {
   return (
-    <div>page</div>
-  )
-}
-export default page
+    <div>
+      <p className="text-lg">
+        This page is under development soon it will be live 😅
+      </p>
+    </div>
+  );
+};
+export default page;

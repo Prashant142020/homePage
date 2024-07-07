@@ -1,9 +1,9 @@
 const page = () => {
   return (
     <main className=" ">
-      <h1 className="text-2xl">Other conferences/talks/posters</h1>
+      <h1 className="text-2xl font-normal">Other conferences/talks/posters</h1>
       <div className="">
-        <ol className="list-decimal">
+        <ol className="list-decimal space-y-3 mt-3 ml-5">
           <li>
             A. Mitra, Manu K. Gupta and N. Hemachandra, “Strategic interaction
             between service providers and the user-set in (abandonment) queues”,

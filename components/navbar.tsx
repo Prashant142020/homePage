@@ -5,8 +5,6 @@ import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import { ModeToggle } from "./darkMode";
 
-// Todo: add card component of share link
-
 function NavBar() {
   const [menu, setMenu] = useState(false);
 
@@ -15,13 +13,13 @@ function NavBar() {
   };
 
   return (
-    <div className="z-20 border-b bg-white dark:bg-black md:shadow-none ">
+    <div className="z-20 border-b bg-white dark:bg-black md:shadow-none">
       {/* DESKTOP */}
-      <div className="hidden p-2 lg:block mx-16">
+      <div className="mx-16 hidden p-2 lg:block">
         <div className="mx-4 flex items-center justify-between md:mx-auto">
           <div>
             <Link href="/" className="flex items-center">
-              <span className="text-2xl font-semibold">Manu K. Gupta</span>
+              <span className="text-2xl">Home</span>
             </Link>
           </div>
           <div className="flex items-center gap-[20px] text-[16px] xl:gap-[30px]">
@@ -87,7 +85,7 @@ function NavBar() {
         <div className="mx-4 flex justify-between">
           <div className="flex select-none items-center gap-[50px] text-[16px]">
             <Link href="/">
-              <span className="text-xl font-semibold">Manu K. Gupta</span>
+              <span className="text-xl">Home</span>
             </Link>
           </div>
           <div className="flex items-center gap-[40px]">

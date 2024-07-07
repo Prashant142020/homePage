@@ -3,14 +3,15 @@ import Link from "next/link";
 const page = () => {
   return (
     <main>
-      <p>
+      <p className="text-lg">
         Work is fun. But there are other things that I do when I am not into
-        teaching/research. This page is devoted to some of the things I like to
-        do in my spare time (when there is any!).
+        teaching/research. <br />
+        This page is devoted to some of the things I like to do in my spare time
+        (when there is any <span className="text-red-500">!</span>).
       </p>
-      <ol className="mx-10 list-decimal">
+      <ol className="ml-5 mt-5 list-decimal space-y-2">
         <li>
-          <Link href="reading" className="text-blue-600">
+          <Link href="reading" className="text-blue-600 hover:text-blue-700">
             Reading
           </Link>
         </li>
