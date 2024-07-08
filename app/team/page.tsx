@@ -13,14 +13,10 @@ const page = () => {
       </p>
       <h2 className="mt-4 text-2xl font-normal">AAAI Team Photos</h2>
       <div className=" ">
-        <Image
-          src="/image/team.jpg"
-          width="800"
-          height="720"
-          alt="Hero Image"
-          className="mt-7 overflow-hidden rounded-xl"
-        />
-        <p className="mt-1 text-muted-foreground"> Team Lunch May 2023</p>
+        <a href="">
+          {" "}
+          <p className="mt-1 text-muted-foreground"> Team Lunch May 2023</p>
+        </a>
         <p className="mt-6 text-2xl font-normal">Current and past members</p>
       </div>
       <div className="mt-3">
@@ -310,7 +306,7 @@ const page = () => {
           </li>
         </ul>
       </div>
-      <hr />
+
       <div>
         <h1 className="mt-5 text-2xl font-normal">Visitors</h1>
         <ul className="ml-4 list-disc space-y-2">

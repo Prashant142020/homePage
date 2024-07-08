@@ -10,9 +10,10 @@ import {
 
 const PTable = () => {
   return (
-    <main className="mt-1">
+    <section className="">
+      <h1 className="text-2xl mb-3">Research/Consultancy Projects</h1>
       <Table>
-        <TableCaption>Research/Consultancy Projects</TableCaption>
+      
         <TableHeader>
           <TableRow>
             <TableHead className="">TOPIC</TableHead>
@@ -71,7 +72,7 @@ const PTable = () => {
           </TableRow>
         </TableBody>
       </Table>
-    </main>
+    </section>
   );
 };
 export default PTable;

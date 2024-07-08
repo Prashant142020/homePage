@@ -16,7 +16,7 @@ const Card = () => {
         <div className="mb-10 mt-1 block flex items-center justify-between">
           <div>
             <Avatar className="h-10 w-10">
-              <AvatarImage src="/image/me.jpg" />
+              <AvatarImage src="/image/me.png" />
               <AvatarFallback>MK</AvatarFallback>
             </Avatar>
           </div>

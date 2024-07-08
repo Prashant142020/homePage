@@ -2,7 +2,7 @@ const page = () => {
   return (
     <main>
       <h1 className="text-2xl font-normal">Research interests</h1>
-      <p className="mt-3 ">
+      <p className="mt-3">
         Theory, applications (primarily in management) and algorithms in
         operations research and reinforcement learning.
       </p>

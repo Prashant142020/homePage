@@ -7,7 +7,7 @@ import Sidebar from "@/components/sidebar";
 import Card from "@/components/followCard";
 import { Roboto } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter-mono" });
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} font-mono`}>
+      <body className={inter.className}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

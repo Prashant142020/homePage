@@ -2,10 +2,10 @@ const Header = () => {
   return (
     <div>
       <main className="">
-        <h1 className="text-2xl font-normal font-mono">About me</h1>
-        <p className="mt-2 font-mono" >
+        <h1 className="text-2xl font-normal">About me</h1>
+        <p className="mt-2">
           I am an assistant professor in{" "}
-          <a href="https://doms.iitr.ac.in/" className="text-blue-600 font-mono" >
+          <a href="https://doms.iitr.ac.in/" className="text-blue-600">
             Management Studies
           </a>{" "}
           at{" "}
@@ -36,11 +36,11 @@ const Header = () => {
           site, please drop me a mail.
         </p>
 
-        <h2 className="mt-10 text-xl font-mono">
+        <h2 className="mt-10 text-xl">
           <hr className="mb-2" />
           News
         </h2>
-        <ul className="mt-3 space-y-3">
+        <ul className="mt-3 space-y-3 list-disc ml-4">
           <li>
             <span className="font-normal">21-25 January, 2024.</span> PhD
             student Anirban Mitra attended a workshop on{" "}

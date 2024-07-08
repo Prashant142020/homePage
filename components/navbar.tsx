@@ -24,49 +24,49 @@ function NavBar() {
           </div>
           <div className="flex items-center gap-[20px] text-[16px] xl:gap-[30px]">
             <Link
-              href="  publications"
+              href="/publications"
               className="text-lg font-medium hover:underline"
               prefetch={false}
             >
               Publications
             </Link>
             <Link
-              href="talks"
+              href="/talks"
               className="text-lg font-medium hover:underline"
               prefetch={false}
             >
               Talks
             </Link>
             <Link
-              href="teaching"
+              href="/teaching"
               className="text-lg font-medium hover:underline"
               prefetch={false}
             >
               Teaching
             </Link>
             <Link
-              href=" team"
+              href="/team"
               className="text-lg font-medium hover:underline"
               prefetch={false}
             >
               Team
             </Link>
             <Link
-              href="bio"
+              href="/bio"
               className="text-lg font-medium hover:underline"
               prefetch={false}
             >
               Bio
             </Link>
             <Link
-              href="projects"
+              href="/projects"
               className="text-lg font-medium hover:underline"
               prefetch={false}
             >
               Projects/Misc.
             </Link>
             <Link
-              href="diversions"
+              href="/diversions"
               className="text-lg font-medium hover:underline"
               prefetch={false}
             >
@@ -95,12 +95,6 @@ function NavBar() {
                 onClick={toggleMenu}
               />
             ) : (
-              // <img
-              //   src="/menu.svg"
-              //   alt="logo"
-              //   className="cursor-pointer dark:invert"
-              //   onClick={toggleMenu}
-              // />
               <div className="flex items-center gap-2">
                 <ModeToggle />
                 <Menu
@@ -116,7 +110,7 @@ function NavBar() {
             <div className="mx-4 mt-8 flex flex-col gap-8">
               <Link
                 onClick={toggleMenu}
-                href="  publications"
+                href="/publications"
                 className="text-lg font-medium hover:underline"
                 prefetch={false}
               >
@@ -124,7 +118,7 @@ function NavBar() {
               </Link>
               <Link
                 onClick={toggleMenu}
-                href="talks"
+                href="/talks"
                 className="text-lg font-medium hover:underline"
                 prefetch={false}
               >
@@ -132,7 +126,7 @@ function NavBar() {
               </Link>
               <Link
                 onClick={toggleMenu}
-                href="teaching"
+                href="/teaching"
                 className="text-lg font-medium hover:underline"
                 prefetch={false}
               >
@@ -140,7 +134,7 @@ function NavBar() {
               </Link>
               <Link
                 onClick={toggleMenu}
-                href=" team"
+                href="/team"
                 className="text-lg font-medium hover:underline"
                 prefetch={false}
               >
@@ -148,7 +142,7 @@ function NavBar() {
               </Link>
               <Link
                 onClick={toggleMenu}
-                href="bio"
+                href="/bio"
                 className="text-lg font-medium hover:underline"
                 prefetch={false}
               >
@@ -156,7 +150,7 @@ function NavBar() {
               </Link>
               <Link
                 onClick={toggleMenu}
-                href="projects"
+                href="/projects"
                 className="text-lg font-medium hover:underline"
                 prefetch={false}
               >
@@ -164,7 +158,7 @@ function NavBar() {
               </Link>
               <Link
                 onClick={toggleMenu}
-                href="diversions"
+                href="/diversions"
                 className="text-lg font-medium hover:underline"
                 prefetch={false}
               >

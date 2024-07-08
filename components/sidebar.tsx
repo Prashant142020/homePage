@@ -13,8 +13,8 @@ export default function Sidebar() {
     <div className="hidden sm:block">
       <aside className="">
         <div className="flex flex-col items-center">
-          <Avatar className="h-24 w-24">
-            <AvatarImage src="/image/me.jpg" />
+          <Avatar className="h-[163px] w-[163px]">
+            <AvatarImage src="/image/me.png" />
             <AvatarFallback>MK</AvatarFallback>
           </Avatar>
           <h2 className="mt-4 text-xl font-semibold">Manu K. Gupta</h2>
