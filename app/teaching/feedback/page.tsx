@@ -15,14 +15,14 @@ const page = () => {
       <h1 className="mb-3 text-2xl">Teaching Feedback</h1>
       <p>All courses, IIT Roorkee, 2024</p>
       <div className="mt-4">
-        <Table>
+        <Table className="w-auto">
           <TableCaption>Last updated on Jan 29 2024.</TableCaption>
           <TableHeader>
             <TableRow>
               <TableHead className="">COURSE CODE</TableHead>
-              <TableHead>COURSE NAME</TableHead>
-              <TableHead>Year</TableHead>
-              <TableHead className="text-right">Instructort</TableHead>
+              <TableHead className="">COURSE NAME</TableHead>
+              <TableHead className="">Year</TableHead>
+              <TableHead className="text-right">Instructor</TableHead>
               <TableHead className="text-right">Course</TableHead>
             </TableRow>
           </TableHeader>

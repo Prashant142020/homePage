@@ -2,7 +2,7 @@ const page = () => {
   return (
     <main>
       <h1 className="text-2xl font-normal">Research interests</h1>
-      <p className="mt-3">
+      <p className="mt-3 ">
         Theory, applications (primarily in management) and algorithms in
         operations research and reinforcement learning.
       </p>
@@ -24,7 +24,7 @@ const page = () => {
       </ul>
 
       <h1 className="mt-6 text-2xl font-normal"> Work experience</h1>
-      <ul className="mx-5 mt-4 list-decimal space-y-3">
+      <ul className="mx-5 mt-4 list-decimal space-y-3 text-justify" >
         <li>
           Assistant Professor (July 2020 - present) <br /> Department of
           Management Studies, IIT Roorkee, India. <br />

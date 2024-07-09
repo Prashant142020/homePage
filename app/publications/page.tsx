@@ -2,7 +2,7 @@ const page = () => {
   return (
     <main className="">
       <h1 className="text-2xl font-normal">Peer reviewed articles</h1>
-      <ol className="ml-5 mt-3 list-decimal space-y-3">
+      <ol className="ml-5 mt-3 list-decimal space-y-3 text-justify">
         <li>
           A. Mitra, Manu K. Gupta and N. Hemachandra, “Cooperative Game
           Theoretic Analysis of Shared Services” 15th International Conference
@@ -12,7 +12,7 @@ const page = () => {
             href="https://link.springer.com/chapter/10.1007/978-3-031-31234-2_3 "
             className="text-blue-500 hover:text-blue-700"
           >
-            Pdf
+            PDF
           </a>
         </li>
         <li>
@@ -24,7 +24,7 @@ const page = () => {
             href="https://shop.elsevier.com/books/artificial-intelligence-and-machine-learning-for-edge-computing/pandey/978-0-12-824054-0"
             className="text-blue-500 hover:text-blue-700"
           >
-            Pdf
+            PDF
           </a>
         </li>
         <li>
@@ -36,7 +36,7 @@ const page = () => {
             href="https://ojs.aaai.org/index.php/AAAI/article/view/16821"
             className="text-blue-500 hover:text-blue-700"
           >
-            Pdf
+            PDF
           </a>
         </li>
         <li>
@@ -47,7 +47,7 @@ const page = () => {
             href="https://link.springer.com/article/10.1007/s00186-020-00731-9"
             className="text-blue-500 hover:text-blue-700"
           >
-            Pdf
+            PDF
           </a>
         </li>
         <li>

@@ -18,10 +18,10 @@ import {
 
 const page = () => {
   return (
-    <main>
+    <main className="">
       <section className="">
         <h1 className="mb-3 text-2xl">Research/Consultancy Projects</h1>
-        <Table>
+        <Table className="">
           <TableHeader>
             <TableRow>
               <TableHead className="">TOPIC</TableHead>
@@ -44,7 +44,7 @@ const page = () => {
               <TableCell>
                 Sponsored Research and Industrial Consultancy, IITR
               </TableCell>
-              <TableCell className="text-right">Nil</TableCell>
+              <TableCell className=" ">Nil</TableCell>
             </TableRow>
             <TableRow>
               <TableCell className="font-medium">
@@ -54,7 +54,7 @@ const page = () => {
               <TableCell> Applied AI</TableCell>
               <TableCell className="text-right"> 27 Lacs</TableCell>
               <TableCell>SmartAlpha Inc., Hyderabad</TableCell>
-              <TableCell className="text-right">R. Balasubramanian</TableCell>
+              <TableCell className=" ">R. Balasubramanian</TableCell>
             </TableRow>
 
             <TableRow>
@@ -65,7 +65,7 @@ const page = () => {
               <TableCell>AI for Sequential Decision Making</TableCell>
               <TableCell className="text-right">35 Lacs + Euro 21K</TableCell>
               <TableCell>DST-INRIA</TableCell>
-              <TableCell className="text-right"> Nicolas Gast</TableCell>
+              <TableCell className=""> Nicolas Gast</TableCell>
             </TableRow>
 
             <TableRow>
@@ -76,7 +76,7 @@ const page = () => {
               <TableCell>Game Theory for Transportation</TableCell>
               <TableCell className="text-right">10 Lacs</TableCell>
               <TableCell> ICSSR</TableCell>
-              <TableCell className="text-right">Sumit Kumar Yadav</TableCell>
+              <TableCell className="">Sumit Kumar Yadav</TableCell>
             </TableRow>
           </TableBody>
         </Table>
@@ -84,19 +84,19 @@ const page = () => {
       <Separator className="mt-5" />
 
       <h1 className="mb-3 mt-5 text-2xl">AAAI lab</h1>
-      <p className="">
+      <p className="text-justify">
         Apart from printer and a few desktops, funds from the above sponsored
         projects are utilized to develop a computational server facility. The
         server has 192 GB RAM and 48 cores with Intel(R) Xeon(R) Gold 6248R CPU
         @ 3.00GHz.
       </p>
-      <p className="mt-3">
+      <p className="mt-3 text-justify">
         This server is available to students and faculty for their research and
         other academic activities.
       </p>
       <div>
         <h1 className="mt-7 text-2xl">Administrative Positions</h1>
-        <ul className="ml-5 list-disc space-y-2">
+        <ul className="ml-5 list-disc space-y-2 text-justify">
           <li className="mt-3">
             Faculty Coordinator, Tinkering and Mentoring Lab, MFS of data
             science and AI, IITR (2023-present).
@@ -128,7 +128,7 @@ const page = () => {
       </div>
       <div>
         <p className="mt-6 text-2xl">Professional Societies and Activities</p>
-        <ul className="mx-5 mt-2 list-disc space-y-3">
+        <ul className="mx-5 mt-2 list-disc space-y-3 text-justify">
           {" "}
           <li className="">Memberships</li>
           <ul className="ml-5 list-disc space-y-2">

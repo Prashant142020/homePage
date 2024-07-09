@@ -3,7 +3,7 @@ const page = () => {
     <main className=" ">
       <h1 className="text-2xl font-normal">Other conferences/talks/posters</h1>
       <div className="">
-        <ol className="ml-5 mt-3 list-decimal space-y-3">
+        <ol className="ml-5 mt-3 list-decimal space-y-3 text-justify">
           <li>
             A. Mitra, Manu K. Gupta and N. Hemachandra, “Strategic interaction
             between service providers and the user-set in (abandonment) queues”,

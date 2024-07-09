@@ -3,8 +3,8 @@ import Image from "next/image";
 const page = () => {
   return (
     <main>
-      <h1 className="text-2xl font-normal">AAAI Group</h1>
-      <p className="mt-2">
+      <h1 className="text-2xl font-normal">AAAI Group  </h1>
+      <p className="mt-2 text-justify">
         Advanced Analytics and Artificial Intelligence (AAAI) group is
         interested in research and knowledge dissemination of advanced analytics
         techniques as well as artificial intelligence. Advanced analytics
@@ -28,10 +28,10 @@ const page = () => {
             >
               Konark Rakesh
             </a>
-            PhD student, DoMS,
+            PhD student, DoMS, IITR.
             <br />
-            IITR. Theme: Restless bandits and its applications. Joining Date:
-            July 2023
+            Theme: Restless bandits and its applications. Joining Date: July
+            2023
           </li>
           <li>
             <a

@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <div>
-      <main className="">
+      <main className="text-justify">
         <h1 className="text-2xl font-normal">About me</h1>
         <p className="mt-2">
           I am an assistant professor in{" "}
@@ -40,7 +40,7 @@ const Header = () => {
           <hr className="mb-2" />
           News
         </h2>
-        <ul className="mt-3 space-y-3 list-disc ml-4">
+        <ul className="text-j ml-4 mt-3 list-disc space-y-3">
           <li>
             <span className="font-normal">21-25 January, 2024.</span> PhD
             student Anirban Mitra attended a workshop on{" "}
@@ -59,7 +59,7 @@ const Header = () => {
               href="https://www.isid.ac.in/~icorgtdm24/"
               className="text-blue-600"
             >
-              Conference
+              Conference{" "}
             </a>
             based on joint work with N. Hemachandra and A. Mitra.
           </li>

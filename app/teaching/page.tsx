@@ -96,7 +96,7 @@ const page = () => {
           in Spring 2024 (With Prof. Tarun) for executive MBA.
         </li>
       </ul>
-      <p className="mt-4 text-2xl">
+      <p className="mt-4 ">
         Click{" "}
         <Link
           className="text-blue-500 hover:text-blue-700"
