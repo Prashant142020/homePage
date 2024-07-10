@@ -48,7 +48,7 @@ const Card = () => {
                   <div className="flex items-center space-x-2">
                     <Linkedin className="h-4 w-4 text-blue-400" />
                     <a
-                      href="https://www.linkedin.com/in/manu-gupta-649a2b19b"
+                      href="https://www.linkedin.com/in/manu-gupta-649a2b19"
                       className=""
                     >
                       LinkedIn
