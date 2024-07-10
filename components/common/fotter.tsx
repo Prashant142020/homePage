@@ -5,10 +5,16 @@ import Link from "next/link";
 
 const Fotter = () => {
   return (
-    <footer className="footer    mt-auto ">
-      <div className="py-5 bg-muted  mt-10">
+    <footer className="footer mt-auto">
+      <div className="mt-10 bg-muted py-5">
         <div className="flex flex-row items-center justify-center gap-2">
-          FOLLOW: <Github /> GITHUB
+          FOLLOW: <Github />{" "}
+          <a
+            className="text-blue-500 hover:text-blue-700"
+            href="https://github.com/manugupta-or"
+          >
+            GITHUB
+          </a>
         </div>
         <div className="mt-4 text-center">
           © 2024 Manu K. Gupta. If you find something useful here,
@@ -16,6 +22,7 @@ const Fotter = () => {
             className="text-blue-500 hover:peer-hover:text-blue-700"
             href="/reading"
           >
+            {" "}
             buy me a book!
           </Link>
         </div>

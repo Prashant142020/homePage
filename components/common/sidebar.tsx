@@ -26,25 +26,31 @@ export default function Sidebar() {
             </div>
             <div className="flex items-center space-x-2">
               <Mail className="h-4 w-4 text-orange-500" />
-              <a href="mailto:youremail@example.com" className="">
+              <a href="mailto:manu.gupta@ms.iitr.ac.in" className="">
                 Email
               </a>
             </div>
             <div className="flex items-center space-x-2">
               <Linkedin className="h-4 w-4 text-blue-400" />
-              <a href="https://www.linkedin.com/" className="">
+              <a
+                href="https://www.linkedin.com/in/manu-gupta-649a2b19"
+                className=""
+              >
                 LinkedIn
               </a>
             </div>
             <div className="flex items-center space-x-2">
               <Github className="h-4 w-4 text-gray-500" />
-              <a href="https://github.com/" className="">
+              <a href="https://github.com/manugupta-or" className="">
                 Github
               </a>
             </div>
             <div className="flex items-center space-x-2">
               <BookOpen className="h-4 w-4 text-yellow-300" />
-              <a href="https://scholar.google.com/" className="">
+              <a
+                href="https://scholar.google.co.in/citations?user=qg_A4VoAAAAJ&hl=en"
+                className=""
+              >
                 Google Scholar
               </a>
             </div>
