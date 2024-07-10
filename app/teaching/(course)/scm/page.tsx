@@ -22,9 +22,9 @@ const page = () => {
           Please register for the course in{" "}
           <a
             className="text-blue-500 hover:text-blue-700"
-            href="https://study.iitr.ac.in"
+            href="https://www.coursera.org/learn/foundations-supply-chain-management-iitr-oc/"
           >
-            moodle
+            coursera
           </a>{" "}
           to access the course content.
         </p>

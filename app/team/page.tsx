@@ -3,7 +3,7 @@ import Image from "next/image";
 const page = () => {
   return (
     <main>
-      <h1 className="text-2xl font-normal">AAAI Group  </h1>
+      <h1 className="text-2xl font-normal">AAAI Group </h1>
       <p className="mt-2 text-justify">
         Advanced Analytics and Artificial Intelligence (AAAI) group is
         interested in research and knowledge dissemination of advanced analytics
@@ -26,7 +26,7 @@ const page = () => {
               className="text-blue-500 hover:text-blue-600"
               href="https://www.linkedin.com/in/konark-rakesh-430443182/"
             >
-              Konark Rakesh
+              Konark Rakesh{" "}
             </a>
             PhD student, DoMS, IITR.
             <br />
@@ -38,7 +38,7 @@ const page = () => {
               className="text-blue-500 hover:text-blue-600"
               href="https://www.linkedin.com/in/bihareelal-meghwal-46a8811a7/"
             >
-              Bihareelal Meghwal
+              Bihareelal Meghwal{" "}
             </a>
             PhD student, Maths, IITR. Joint supervision with
             <a

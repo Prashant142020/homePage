@@ -7,7 +7,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { BookOpen, Github, Linkedin, Mail, MapPin } from "lucide-react";
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 
 const Card = () => {
   return (

@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import NavBar from "@/components/navbar";
-import { ThemeProvider } from "@/components/theme-provider";
-import Sidebar from "@/components/sidebar";
-import Card from "@/components/followCard";
-import { Roboto } from "next/font/google";
+
+import NavBar from "@/components/nav/navbar";
+import { ThemeProvider } from "@/components/common/theme-provider";
+
+import Sidebar from "@/components/common/sidebar";
+import Card from "@/components/common/followCard";
 
 const inter = Inter({ subsets: ["latin"] });
 

@@ -1,7 +1,7 @@
 const page = () => {
   return (
     <main className="text-justify">
-      <p className="text-lg">
+      <p className="">
         Books train your imagination to think big. They take you to a different
         world without moving a single inch. I am always ready to explore new
         authors. I also maintain a small library and anyone with good credit
@@ -13,7 +13,7 @@ const page = () => {
         <li>The Autobiography of Benjamin Franklin by Benjamin Franklin</li>
         <li>The Kite runner by Khaled Hosseini</li>
       </ul>
-      <p className="mt-3 text-xl">
+      <p className="mt-3">
         Feel free to inbox me if you have the above books. We can strike a deal.
       </p>
 
@@ -40,7 +40,7 @@ const page = () => {
         <li> Stay Hungry Stay Foolish by Rashmi Bansal</li>
         <li> The Immortals of Meluha by Amish Tripathi</li>
       </ul>
-      <p className="mt-3 text-xl">
+      <p className="mt-3">
         Trust me there were more books. This list is for bragging purpose and
         majorly to avoid any repetition.
       </p>

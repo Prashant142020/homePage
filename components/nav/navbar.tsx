@@ -3,7 +3,23 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
-import { ModeToggle } from "./darkMode";
+import { ModeToggle } from "../common/darkMode";
+import {
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuIndicator,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+  NavigationMenuViewport,
+} from "@/components/ui/navigation-menu";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 function NavBar() {
   const [menu, setMenu] = useState(false);
@@ -26,49 +42,51 @@ function NavBar() {
             <Link
               href="/publications"
               className="text-lg font-medium hover:underline"
-              prefetch={false}
             >
               Publications
             </Link>
-            <Link
-              href="/talks"
-              className="text-lg font-medium hover:underline"
-              prefetch={false}
-            >
+            <Link href="/talks" className="text-lg font-medium hover:underline">
               Talks
             </Link>
-            <Link
-              href="/teaching"
-              className="text-lg font-medium hover:underline"
-              prefetch={false}
-            >
-              Teaching
-            </Link>
-            <Link
-              href="/team"
-              className="text-lg font-medium hover:underline"
-              prefetch={false}
-            >
+            <p className="text-lg">
+              <NavigationMenu>
+                <NavigationMenuList>
+                  <NavigationMenuItem>
+                    <NavigationMenuTrigger className="text-lg">
+                      Teaching
+                    </NavigationMenuTrigger>
+                    <NavigationMenuContent className="">
+                      <div className="h-24 w-[100px] gap-2 p-3">
+                        <p className="hover:bg-gray-100 dark:hover:bg-zinc-800">
+                          {" "}
+                          <Link href="/teaching">At IITR</Link>
+                        </p>
+
+                        <p className="hover:bg-gray-100 dark:hover:bg-zinc-800">
+                          {" "}
+                          <Link href="/teaching/training">Training</Link>
+                        </p>
+                      </div>
+                    </NavigationMenuContent>
+                  </NavigationMenuItem>
+                </NavigationMenuList>
+              </NavigationMenu>
+            </p>
+            <Link href="/team" className="text-lg font-medium hover:underline">
               Team
             </Link>
-            <Link
-              href="/bio"
-              className="text-lg font-medium hover:underline"
-              prefetch={false}
-            >
+            <Link href="/bio" className="text-lg font-medium hover:underline">
               Bio
             </Link>
             <Link
               href="/projects"
               className="text-lg font-medium hover:underline"
-              prefetch={false}
             >
               Projects/Misc.
             </Link>
             <Link
               href="/diversions"
               className="text-lg font-medium hover:underline"
-              prefetch={false}
             >
               Diversions
             </Link>
@@ -112,7 +130,6 @@ function NavBar() {
                 onClick={toggleMenu}
                 href="/publications"
                 className="text-lg font-medium hover:underline"
-                prefetch={false}
               >
                 Publications
               </Link>
@@ -120,23 +137,35 @@ function NavBar() {
                 onClick={toggleMenu}
                 href="/talks"
                 className="text-lg font-medium hover:underline"
-                prefetch={false}
               >
                 Talks
               </Link>
-              <Link
-                onClick={toggleMenu}
-                href="/teaching"
-                className="text-lg font-medium hover:underline"
-                prefetch={false}
-              >
-                Teaching
-              </Link>
+              <div className="text-lg">
+                <Accordion type="single" collapsible>
+                  <AccordionItem value="item-1">
+                    <AccordionTrigger> Teaching </AccordionTrigger>
+                    <AccordionContent>
+                      <div className="ml-1 space-y-1 text-base font-medium">
+                        <p>
+                          {" "}
+                          <Link onClick={toggleMenu} href="/teaching">
+                            At IITR
+                          </Link>
+                        </p>
+                        <div>
+                          <Link onClick={toggleMenu} href="/teaching/training">
+                            Training
+                          </Link>
+                        </div>
+                      </div>
+                    </AccordionContent>
+                  </AccordionItem>
+                </Accordion>
+              </div>
               <Link
                 onClick={toggleMenu}
                 href="/team"
                 className="text-lg font-medium hover:underline"
-                prefetch={false}
               >
                 Team
               </Link>
@@ -144,7 +173,6 @@ function NavBar() {
                 onClick={toggleMenu}
                 href="/bio"
                 className="text-lg font-medium hover:underline"
-                prefetch={false}
               >
                 Bio
               </Link>
@@ -152,7 +180,6 @@ function NavBar() {
                 onClick={toggleMenu}
                 href="/projects"
                 className="text-lg font-medium hover:underline"
-                prefetch={false}
               >
                 Projects/Misc.
               </Link>
@@ -160,7 +187,6 @@ function NavBar() {
                 onClick={toggleMenu}
                 href="/diversions"
                 className="text-lg font-medium hover:underline"
-                prefetch={false}
               >
                 Diversions
               </Link>
