@@ -83,7 +83,14 @@ const page = () => {
           >
             Supply Chain Management
           </Link>{" "}
-          in Autumn 2023 (With Prof. Tarun) for executive MBA program.
+          in Autumn 2023 (With{" "}
+          <a
+            className="text-blue-500 hover:text-blue-700"
+            href="https://iitr.ac.in/Departments/Management%20Studies%20Department/People/Faculty/100926.html"
+          >
+            Prof. Tarun
+          </a>{" "}
+          ) for executive MBA program.
         </li>
         <li>
           {" "}
@@ -93,7 +100,14 @@ const page = () => {
           >
             Advanced Optimization for Managers
           </Link>{" "}
-          in Spring 2024 (With Prof. Tarun) for executive MBA.
+          in Spring 2024 (With{" "}
+          <a
+            className="text-blue-500 hover:text-blue-700"
+            href="https://iitr.ac.in/Departments/Management%20Studies%20Department/People/Faculty/100926.html"
+          >
+            Prof. Tarun
+          </a>{" "}
+          ) for executive MBA.
         </li>
       </ul>
       <p className="mt-4">

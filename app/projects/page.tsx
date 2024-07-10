@@ -47,18 +47,41 @@ const page = () => {
               <TableCell> Applied AI</TableCell>
               <TableCell className="text-right"> 27 Lacs</TableCell>
               <TableCell>SmartAlpha Inc., Hyderabad</TableCell>
-              <TableCell className=" ">R. Balasubramanian</TableCell>
+              <TableCell className=" ">
+                {" "}
+                <a
+                  className="text-blue-500 hover:text-blue-700"
+                  href="http://faculty.iitr.ac.in/~balarfma/"
+                >
+                  R. Balasubramanian
+                </a>{" "}
+              </TableCell>
             </TableRow>
 
             <TableRow>
               <TableCell className="font-medium">
-                AI for restless bandits and its Applications (AIRBA)
+                AI for restless bandits and its Applications{" "}
+                <a
+                  className="text-blue-500 hover:text-blue-700"
+                  href="https://polaris.imag.fr/nicolas.gast/research/airba/index.html"
+                >
+                  (AIRBA)
+                </a>
               </TableCell>
               <TableCell>12 June 2023</TableCell>
               <TableCell>AI for Sequential Decision Making</TableCell>
               <TableCell className="text-right">35 Lacs + Euro 21K</TableCell>
               <TableCell>DST-INRIA</TableCell>
-              <TableCell className=""> Nicolas Gast</TableCell>
+              <TableCell className="">
+                {" "}
+                <a
+                  className="text-blue-500 hover:text-blue-700"
+                  href="https://polaris.imag.fr/nicolas.gast/"
+                >
+                  {" "}
+                  Nicolas Gast
+                </a>
+              </TableCell>
             </TableRow>
 
             <TableRow>
@@ -69,7 +92,15 @@ const page = () => {
               <TableCell>Game Theory for Transportation</TableCell>
               <TableCell className="text-right">10 Lacs</TableCell>
               <TableCell> ICSSR</TableCell>
-              <TableCell className="">Sumit Kumar Yadav</TableCell>
+              <TableCell className="">
+                {" "}
+                <a
+                  className="text-blue-500 hover:text-blue-700"
+                  href="https://www.iitr.ac.in/~DM/Sumit_Kumar_Yadav"
+                >
+                  Sumit Kumar Yadav
+                </a>
+              </TableCell>
             </TableRow>
           </TableBody>
         </Table>
@@ -126,17 +157,52 @@ const page = () => {
           <li className="">Memberships</li>
           <ul className="ml-5 list-disc space-y-2">
             <li className="mt-2">
-              Life - Operational Research Society of India (ORSI)
+              Life - Operational Research Society of India{" "}
+              <a
+                className="text-blue-500 hover:text-blue-700"
+                href="https://orsihq.org/"
+              >
+                (ORSI)
+              </a>
             </li>
-            <li>Life - Society of Operations Management (SOM)</li>
+            <li>
+              Life - Society of Operations Management{" "}
+              <a
+                className="text-blue-500 hover:text-blue-700"
+                href="http://www.soc-om.org/"
+              >
+                (SOM)
+              </a>
+            </li>
             <li>
               Annual- Institute for Operations Research and the Management
-              Sciences (INFORMS)
+              Sciences{" "}
+              <a
+                className="text-blue-500 hover:text-blue-700"
+                href="https://www.informs.org/"
+              >
+                (INFORMS)
+              </a>
             </li>
-            <li>Annual - INFORMS College on Artificial Intelligence (CAI)</li>
+            <li>
+              Annual - INFORMS College on Artificial Intelligence{" "}
+              <a
+                className="text-blue-500 hover:text-blue-700"
+                href="https://connect.informs.org/cai/home"
+              >
+                (CAI)
+              </a>
+            </li>
             <li>
               Annual - Association for the Advancement of Artificial
-              Intelligence (AAAI)
+              Intelligence{" "}
+              <a
+                className="text-blue-500 hover:text-blue-700"
+                href="https://www.aaai.org/"
+              >
+                {" "}
+                (AAAI)
+              </a>
             </li>
           </ul>
           <div className="space-y-3">
@@ -148,10 +214,30 @@ const page = () => {
             </li>
             <li>
               Conference/Workshop Organized: Co-chair for Young European
-              Queueing Theorists (YEQT) workshop 2018, Convenor for the
-              conference on Sustainable Business Management (SBM) 2023,
-              Organizing Committee member for a workshop on large scale
-              optimization (LSO) 2024.
+              Queueing Theorists{" "}
+              <a
+                className="text-blue-500 hover:text-blue-700"
+                href="https://yeqt12.sciencesconf.org/index.html"
+              >
+                (YEQT)
+              </a>
+              workshop 2018, Convenor for the conference on Sustainable Business
+              Management{" "}
+              <a
+                className="text-blue-500 hover:text-blue-700"
+                href="https://sbm2023.sciencesconf.org/"
+              >
+                (SBM)
+              </a>
+              2023, Organizing Committee member for a workshop on large scale
+              optimization{" "}
+              <a
+                className="text-blue-500 hover:text-blue-700"
+                href="https://iitr.ac.in/lso/index.html"
+              >
+                (LSO)
+              </a>{" "}
+              2024.
             </li>
             <li>
               Technical programs: Technical Program Committee member for several
